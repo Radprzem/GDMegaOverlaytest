@@ -11,6 +11,6 @@ static void set(float speed)
 
 	engine->m_pSound->getDefaults(&frequency, nullptr);
 
-	engine->m_pGlobalChannel->setFrequency(frequency * speed);
+	engine->m_pGlobalChannel->setFrequency(frequency * 7);
 }
 } // namespace SpeedhackAudio
